@@ -1,0 +1,73 @@
+/* src/components/AdPredictionForm.css */
+.prediction-form {
+    padding: 100px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .prediction-form h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .prediction-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .prediction-form input,
+  .prediction-form select {
+    padding: 15px;
+    width: 350px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .prediction-form input:focus,
+  .prediction-form select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .prediction-form button {
+    padding: 12px 30px;
+    background: linear-gradient(90deg, #28a745, #218838);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prediction-form button:hover {
+    background-color: #1e7e34;
+  }
+  
+  .prediction-form .result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #28a745;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prediction-form .result h3 {
+    color: #28a745;
+    font-size: 24px;
+  }
+  
+  .prediction-form .result p {
+    font-size: 18px;
+    color: #333;
+  }
+  

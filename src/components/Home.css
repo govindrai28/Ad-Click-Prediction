@@ -1,0 +1,43 @@
+/* src/components/Home.css */
+.home-container {
+    margin-top: 50px;
+    font-size:30px;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .image-marquee {
+    width: 100%;
+    overflow: hidden;
+    margin: 50px 0;
+  }
+  
+  .marquee-content {
+    display: flex;
+    width: 100%;
+    animation: marquee 20s linear infinite; /* Adjust the 20s to change speed */
+
+  }
+  
+  .marquee-content img {
+    width: 300px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .marquee-content img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Keyframe for the marquee effect */
+  @keyframes marquee {
+    0% {
+      transform: translateX(100);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
